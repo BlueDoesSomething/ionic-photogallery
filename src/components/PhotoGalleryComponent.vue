@@ -9,13 +9,13 @@
                 <p>Take a picture using the camera</p>
             </div>
             <ion-grid v-else> 
-                <ion-row
+                <ion-row>
                     <ion-col
                         v-for="(photo, index) in photos"
                         :key="index"
                         size="6"
                         size-md="4"
-                    >
+                     >
                         <ion-card> 
                             <ion-img :src="photos" class="gallery-image" />
                         </ion-card>
